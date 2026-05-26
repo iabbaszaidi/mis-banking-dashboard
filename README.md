@@ -87,40 +87,6 @@ mis_dashboard/
 
 ---
 
-## 🚀 How to Run
-
-### Step 1 — Generate Sample Data
-```bash
-pip install -r requirements.txt
-python python/generate_data.py
-```
-
-### Step 2 — Set Up Database
-Run SQL scripts in order in MS SQL Server Management Studio (SSMS):
-```sql
--- Run in order:
-01_create_tables.sql
-02_load_data.sql
-03_mis_views.sql
-04_scorecards.sql
-```
-
-### Step 3 — Run ETL Pipeline
-```bash
-# Update DB connection string in etl_pipeline.py first
-python python/etl_pipeline.py
-```
-
-### Step 4 — Generate MIS Report
-```bash
-python python/mis_report.py
-# Output: reports/MIS_Report_<month>.xlsx
-```
-
-### Step 5 — Power BI Dashboard
-See `powerbi_guide/dashboard_guide.md` for step-by-step instructions.
-
----
 
 ## 📈 Sample KPIs Tracked
 
