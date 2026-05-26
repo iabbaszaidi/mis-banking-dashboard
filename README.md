@@ -42,11 +42,9 @@ mis_dashboard/
 │   ├── mis_report.py            # Automated MIS report generator
 │   └── validation.py            # Data quality & validation checks
 │
-├── powerbi_guide/               # Power BI setup instructions
-│   └── dashboard_guide.md       # Step-by-step dashboard recreation guide
 │
-├── docs/
-│   └── project_report.md        # Full project documentation
+├── Report/
+│   └── project_report.png        # Full project Report
 │
 └── README.md
 ```
